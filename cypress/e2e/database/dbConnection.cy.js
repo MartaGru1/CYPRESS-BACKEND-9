@@ -1,4 +1,4 @@
-const BackendPage = require('../../../pages/BackendPage')
+const BackendPage = require('../../pages/BackendPage')
 
 describe('DBConnection', () => {
   const backendPage = new BackendPage()
@@ -108,13 +108,4 @@ describe('DBConnection', () => {
       expect(rows).to.have.length(0)
     })
   })
-})
-
-
-
-
-
-
-
-
 })

@@ -1,0 +1,17 @@
+{
+    "postRequestBody": {
+      "DOB": "1995-08-28",
+      "EMAIL": "Coco.Jumbo111@gmail.com",
+      "FIRST_NAME": "Coco",
+      "LAST_NAME": "Jumbo",
+      "INSTRUCTOR_ID": 2
+    },
+    "putRequestBody": {
+      "DOB": "1995-08-28",
+      "EMAIL": "C.Jumbo1@gmail.com",
+      "FIRST_NAME": "Coco",
+      "LAST_NAME": "Jumbo",
+      "INSTRUCTOR_ID": 2
+      
+    }
+}
