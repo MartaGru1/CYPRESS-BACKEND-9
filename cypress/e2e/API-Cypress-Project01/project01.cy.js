@@ -91,7 +91,7 @@ describe('TechGlobal Student APIs', () => {
             url: `${baseUrl}/${studentID}`
         }).then((response) => {
             expect(response.status).to.eq(200)
-            expect(response.body.message).to.eq(`Successfully deleted student with id ${studentID}`)
+            expect(response.body.message).to.eq(`Successfully deleted user with Id: ${studentID}`)
         })
     })
 })
